@@ -3,12 +3,25 @@ body {
     /* background-image: url(../images/icono.png); */
 }
 
+/* inicio estilos para el scroll de la misma pagina */
+body::-webkit-scrollbar {
+    width: 8px;
+    background: darkcyan;
+}
+body::-webkit-scrollbar-thumb {
+    background: rgba(9, 59, 165, 0.863);
+    border-radius: 10px;
+    border-right: 2px solid darkcyan;
+}
+/* fin de los estilos del scroll */
+
+
 nav {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: dodgerblue;
-    border: 1px solid cornflowerblue;
+    color: black;
+    border: 1px solid black;
 }
 
 .lista-desordenada {
@@ -32,5 +45,9 @@ nav {
     font-style:oblique;
     letter-spacing: 1px;
     color: yellow;
+    text-align: center;
+    margin-right: 5px;
+    padding: 4em;
+    /* border-right: 5px solid transparent; */
 }
 
